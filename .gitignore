@@ -3,6 +3,7 @@
 *.pyo
 *.pyd
 __pycache__/
+frames/
 
 # Virtual environment directories
 venv/
@@ -40,6 +41,7 @@ dist/
 /Api/uploaded_videos/
 # Node.js dependencies (if applicable)
 /node_modules/
-
+/Api/best.pt
+/Api/processed_frames/
 # Environment variables
 .env
