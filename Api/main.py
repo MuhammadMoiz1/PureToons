@@ -39,9 +39,9 @@ async def load_model():
     print("YOLO model loaded successfully!")
     print("Loading BERT model and tokenizer...")
     Video = None
-    tokenizer = AutoTokenizer.from_pretrained("Puretoons-BertBase-6000")
+    tokenizer = AutoTokenizer.from_pretrained("Puretoons-BertBase-7000-contrastive")
     model = AutoModelForSequenceClassification.from_pretrained(
-        "Puretoons-BertBase-6000", num_labels=5
+        "Puretoons-BertBase-7000-contrastive", num_labels=5
     )
     print("Model and tokenizer loaded successfully!")
 
