@@ -38,10 +38,11 @@ dist/
 /Api/__pycache__/
 /Api/fyp/
 /Api/Puretoons-BertBase-6000/
+/Api/Puretoons-BertBase-7000-contrastive/
 /Api/uploaded_videos/
-# Node.js dependencies (if applicable)
-/node_modules/
 /Api/best.pt
 /Api/processed_frames/
+# Node.js dependencies (if applicable)
+/node_modules/
 # Environment variables
 .env
